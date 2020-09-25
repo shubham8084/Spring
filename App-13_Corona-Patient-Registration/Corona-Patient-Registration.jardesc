@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="C:/Users/Shubham singh/Desktop/Corona-Patient-Registration.rar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/App-13_Corona-Patient-Registration/Corona-Patient-Registration.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <file path="/App-13_Corona-Patient-Registration/settings.gradle"/>
+        <file path="/App-13_Corona-Patient-Registration/gradlew.bat"/>
+        <javaElement handleIdentifier="=App-13_Corona-Patient-Registration/src\/test\/java=/gradle_scope=/test=/=/gradle_used_by_scope=/test=/=/test=/true=/"/>
+        <file path="/App-13_Corona-Patient-Registration/.gitignore"/>
+        <file path="/App-13_Corona-Patient-Registration/.project"/>
+        <javaElement handleIdentifier="=App-13_Corona-Patient-Registration/src\/test\/resources=/gradle_scope=/test=/=/gradle_used_by_scope=/test=/=/test=/true=/"/>
+        <file path="/App-13_Corona-Patient-Registration/build.gradle"/>
+        <folder path="/App-13_Corona-Patient-Registration/src"/>
+        <file path="/App-13_Corona-Patient-Registration/.classpath"/>
+        <javaElement handleIdentifier="=App-13_Corona-Patient-Registration/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/"/>
+        <folder path="/App-13_Corona-Patient-Registration/gradle"/>
+        <javaElement handleIdentifier="=App-13_Corona-Patient-Registration/src\/main\/resources=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/"/>
+        <file path="/App-13_Corona-Patient-Registration/.springBeans"/>
+        <file path="/App-13_Corona-Patient-Registration/.gitattributes"/>
+        <file path="/App-13_Corona-Patient-Registration/gradlew"/>
+        <folder path="/App-13_Corona-Patient-Registration/bin"/>
+    </selectedElements>
+</jardesc>

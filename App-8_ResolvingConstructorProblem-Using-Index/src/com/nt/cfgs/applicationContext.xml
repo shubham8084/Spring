@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+
+<bean id="std" class="com.nt.beans.StudentBean" >
+<!-- using index -->
+<constructor-arg index="1" value="shubham"/>
+<constructor-arg value="100"/>
+<constructor-arg value="121"/>
+</bean>
+
+<!-- using type -->
+<bean id="stud" class="com.nt.beans.StudentBean">
+
+<constructor-arg value="121" type="int"/>
+<constructor-arg value="100" type="float"/>
+<constructor-arg value="Shubham" type="String"/>
+
+</bean>
+<!-- using name -->
+<bean id="st" class="com.nt.beans.StudentBean">
+<constructor-arg name="marks" value="84"/>
+<constructor-arg name="sname" value="shubham"/>
+<constructor-arg name="sno" value="111"/>
+</bean>
+
+
+</beans>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+
+
+<bean id="dob" class="java.util.Date" p:year="90" p:month="8" p:date="12"/>
+<bean id="dos" class="java.util.Date" c:year="100" c:month="10" c:date="14" />
+<bean id="dept" class="com.nt.entity.Department" c:dno="121" c:dname="IT" c:dos-ref="dos"/>
+<bean id="emp" class="com.nt.entity.Employee" p:eno="141" p:ename="Shubham"  p:dob-ref="dob" p:dept-ref="dept" />
+
+</beans>
